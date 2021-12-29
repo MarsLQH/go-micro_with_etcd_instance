@@ -10,13 +10,8 @@ import (
 	"go-micro.dev/v4/registry"
 )
 
-type Login struct {
-	Client pb.UserService
-}
-
-
 const (
-	ETCD_ADDRESS  = "8.142.86.204:2379"
+	ETCD_ADDRESS  = "x.x.x.x:2379"
 )
 
 func main() {

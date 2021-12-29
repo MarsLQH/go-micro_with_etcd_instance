@@ -15,8 +15,8 @@ import (
 )
 
 const (
-	ETCD_ADDRESS  = "8.142.86.204:2379"
-	MICRO_ADDRESS = "121.40.244.190:5003"
+	ETCD_ADDRESS  = "x.x.x.x:2379"
+	MICRO_ADDRESS = "x.x.x.x:5003"
 )
 
 func main() {
@@ -37,6 +37,5 @@ func main() {
 	)
 	if err := service.Run(); err != nil {
 		log.Fatal(err)
-
 	}
 }
